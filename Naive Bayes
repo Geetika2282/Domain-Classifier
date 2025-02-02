@@ -1,0 +1,9 @@
+Multinomial Naive Bayes (MNB)
+MNB is a probabilistic machine learning algorithm used for text classification. Works on principle of Bayes theoram and assumes that the features are conditionally independent. It is particularly effective when working with word frequency-based features like TF-IDF or Count Vectorization.
+Steps: 
+1. Preprocessing
+2. Feature Extraction
+3. Splitting the data
+4. Train model
+Naive Bayes works well for high-dimensional sparse data. Naive Bayes has 3 types: Gaussian NB, Bernoulli NB, Multinomial NB. 
+Text data has thousands of unique words, making feature space very large. MNB efficiently handles high-dimensional data without overfitting. Unlike deep learning models, it requires less computation and fewer resources. MNB works well even with small datasets.
